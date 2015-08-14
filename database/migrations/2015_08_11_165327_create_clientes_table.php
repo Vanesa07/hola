@@ -17,6 +17,7 @@ class CreateClientesTable extends Migration {
 			$table->increments('id');
 			$table->string('direcciones');
 			$table->string('limite_credito');
+			$table->LONGTEXT('descuento');
 			
 		});
 	}
